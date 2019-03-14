@@ -25,7 +25,7 @@ def create_parser():
     parser = argparse.ArgumentParser(
         description="Perform transformation on input text.")
     parser.add_argument(
-        "num", help="add a number to find the nth fib of")
+        "num", help="include a number to find the nth fib of")
     return parser
 
 
