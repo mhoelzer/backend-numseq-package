@@ -34,12 +34,12 @@ def create_parser():
     parser = argparse.ArgumentParser(
         description="Perform transformation on input text.")
     parser.add_argument(
-        "num", help="add a number to find the nth fib of")
+        "num", help="add a number to find the nth square/triangle/cube of")
     return parser
 
 
 def main(args):
-    """main function used to run fib()"""
+    """main function used to run square/triangle/cube()"""
     parser = create_parser()
     namespace = parser.parse_args()
     if not namespace:
