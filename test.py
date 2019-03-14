@@ -2,7 +2,8 @@ __author__ = "mhoelzer"
 
 
 """
-this is for testing.
+this is for testing
+because tests are the bests
 everything could also be outside the main/on its own and work with same cmdln
 """
 
