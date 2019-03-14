@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Numseq Assessment--Fibonacci Numbers"""
+"""
+Numseq Assessment--Fibonacci Numbers
+because fibonacci rocks!
+"""
 
 __author__ = "mhoelzer"
 
