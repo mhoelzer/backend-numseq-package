@@ -37,7 +37,7 @@ def create_parser():
     parser = argparse.ArgumentParser(
         description="Perform transformation on input text.")
     parser.add_argument(
-        "num", help="add a number to find the nth square/triangle/cube of")
+        "num", help="include a number to find the nth square/triangle/cube of")
     return parser
 
 
@@ -53,6 +53,6 @@ def main(args):
 
 
 if __name__ == "__main__":
-    # example of cmdln: python fib.py <integerHere>
+    # example of cmdln: python geo.py <integerHere>
     # need to be inside numseq folder
     print(main(sys.argv[1:]))
