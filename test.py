@@ -8,18 +8,18 @@ everything could also be outside the main/on its own and work with same cmdln
 
 
 from numseq.fib import fib
-from numseq.geo import square, triangle
-# from numseq.prime import
+from numseq.geo import square, triangle, cube
+from numseq.prime import primes, is_prime
 
 
 def main():
-    print("Fibonacceei")
+    print("Fibonacci")
     for i in range(10):
         print("{}: {}".format(i, fib(i)))
 
     print("Geometric numbers (square, triangle, cube)")
     for i in range(10):
-        print("{}: {} {}".format(i, square(i), triangle(i)))
+        print("{}: {} {} {}".format(i, square(i), triangle(i), cube(i)))
 
     # print("Primes")
     # prime_list = primes(1000)
