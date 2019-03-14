@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Numseq Assessment--Geometric Numbers"""
+"""
+Numseq Assessment--Geometric Numbers
+because we have to get in SHAPE
+"""
 
 __author__ = "mhoelzer"
 
